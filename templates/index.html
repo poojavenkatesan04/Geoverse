@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoVerse Lite - Simple Country Explorer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <i class="fa-solid fa-earth-americas logo-icon"></i>
+                <span class="logo-text">GeoVerse <span class="logo-accent">Lite</span></span>
+            </a>
+            <div class="search-wrapper">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Search countries by name..." autocomplete="off">
+                    <button id="clear-search" class="clear-btn hidden"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <section class="hero-section">
+            <h1>Explore The World</h1>
+            <p>Discover details, map locations, and key information for over 250 countries.</p>
+        </section>
+
+        <!-- Loading spinner -->
+        <div id="loading" class="loading-container">
+            <div class="spinner"></div>
+            <p>Gathering country data...</p>
+        </div>
+
+        <!-- Error message -->
+        <div id="error" class="error-container hidden">
+            <i class="fa-solid fa-triangle-exclamation error-icon"></i>
+            <p class="error-title">Failed to load countries</p>
+            <p class="error-msg">Please check your internet connection and try again.</p>
+            <button id="retry-btn" class="btn btn-primary">Retry</button>
+        </div>
+
+        <!-- Country Grid -->
+        <div id="country-grid" class="country-grid hidden"></div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p>&copy; 2026 GeoVerse Lite. Powered by REST Countries API & Leaflet.js.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

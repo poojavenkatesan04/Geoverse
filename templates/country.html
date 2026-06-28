@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoVerse Lite - Country Detail</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <i class="fa-solid fa-earth-americas logo-icon"></i>
+                <span class="logo-text">GeoVerse <span class="logo-accent">Lite</span></span>
+            </a>
+            <a href="/" class="back-link">
+                <i class="fa-solid fa-arrow-left"></i> Back to Explorer
+            </a>
+        </div>
+    </header>
+
+    <!-- Pass the country name variable from Flask to Javascript -->
+    <script>
+        const COUNTRY_NAME = "{{ country_name }}";
+    </script>
+
+    <main class="container main-content">
+        <!-- Loading spinner -->
+        <div id="loading" class="loading-container">
+            <div class="spinner"></div>
+            <p>Fetching country details...</p>
+        </div>
+
+        <!-- Error message -->
+        <div id="error" class="error-container hidden">
+            <i class="fa-solid fa-triangle-exclamation error-icon"></i>
+            <p class="error-title">Failed to load details</p>
+            <p class="error-msg">We couldn't retrieve details for this country.</p>
+            <a href="/" class="btn btn-primary">Go Home</a>
+        </div>
+
+        <!-- Content Area -->
+        <div id="detail-layout" class="detail-layout hidden">
+            <!-- Map Container (takes ~60-70% width on desktop) -->
+            <div class="map-section">
+                <div id="map"></div>
+            </div>
+
+            <!-- Country Info Panel -->
+            <div class="info-section">
+                <div class="info-card">
+                    <div class="info-header">
+                        <img id="country-flag" class="detail-flag" src="" alt="Flag">
+                        <div>
+                            <h1 id="country-title" class="detail-title"></h1>
+                            <p id="country-official-name" class="detail-subtitle"></p>
+                        </div>
+                    </div>
+
+                    <div class="info-body">
+                        <div class="info-item">
+                            <span class="info-label"><i class="fa-solid fa-landmark"></i> Capital</span>
+                            <span id="country-capital" class="info-value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fa-solid fa-users"></i> Population</span>
+                            <span id="country-population" class="info-value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fa-solid fa-earth-asia"></i> Region</span>
+                            <span id="country-region" class="info-value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fa-solid fa-coins"></i> Currency</span>
+                            <span id="country-currency" class="info-value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fa-solid fa-language"></i> Languages</span>
+                            <span id="country-languages" class="info-value"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p>&copy; 2026 GeoVerse Lite. Powered by REST Countries API & Leaflet.js.</p>
+        </div>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

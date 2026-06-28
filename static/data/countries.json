@@ -1,0 +1,284 @@
+[
+  {
+    "name": {
+      "common": "United States",
+      "official": "United States of America"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 7410 3900'><path d='M0 0h7410v3900H0z' fill='%23b22234'/><path d='M0 300h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0z' fill='%23fff'/><path d='M0 0h2964v2100H0z' fill='%233c3b6e'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 7410 3900'><path d='M0 0h7410v3900H0z' fill='%23b22234'/><path d='M0 300h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0zm0 600h7410v300H0z' fill='%23fff'/><path d='M0 0h2964v2100H0z' fill='%233c3b6e'/></svg>"
+    },
+    "region": "Americas",
+    "capital": ["Washington, D.C."],
+    "capitalInfo": {
+      "latlng": [38.8951, -77.0364]
+    },
+    "latlng": [38.0, -97.0],
+    "population": 331893745,
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$"
+      }
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "area": 9833517
+  },
+  {
+    "name": {
+      "common": "United Kingdom",
+      "official": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 30'><rect width='50' height='30' fill='%23012169'/><path d='M0 0l50 30M50 0L0 30' stroke='%23fff' stroke-width='6'/><path d='M0 0l50 30M50 0L0 30' stroke='%23C8102E' stroke-width='4'/><path d='M25 0v30M0 15h50' stroke='%23fff' stroke-width='10'/><path d='M25 0v30M0 15h50' stroke='%23C8102E' stroke-width='6'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 30'><rect width='50' height='30' fill='%23012169'/><path d='M0 0l50 30M50 0L0 30' stroke='%23fff' stroke-width='6'/><path d='M0 0l50 30M50 0L0 30' stroke='%23C8102E' stroke-width='4'/><path d='M25 0v30M0 15h50' stroke='%23fff' stroke-width='10'/><path d='M25 0v30M0 15h50' stroke='%23C8102E' stroke-width='6'/></svg>"
+    },
+    "region": "Europe",
+    "capital": ["London"],
+    "capitalInfo": {
+      "latlng": [51.5074, -0.1278]
+    },
+    "latlng": [54.0, -2.0],
+    "population": 67215293,
+    "currencies": {
+      "GBP": {
+        "name": "British pound",
+        "symbol": "£"
+      }
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "area": 242495
+  },
+  {
+    "name": {
+      "common": "Canada",
+      "official": "Canada"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 10'><rect width='20' height='10' fill='%23F00'/><rect x='5' width='10' height='10' fill='%23fff'/><path d='M10 2.5l.6 1.8 1.9-.3-1.2 1.3.9 1.7-1.6-.9-1.6.9.9-1.7-1.2-1.3 1.9.3z' fill='%23F00'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 10'><rect width='20' height='10' fill='%23F00'/><rect x='5' width='10' height='10' fill='%23fff'/><path d='M10 2.5l.6 1.8 1.9-.3-1.2 1.3.9 1.7-1.6-.9-1.6.9.9-1.7-1.2-1.3 1.9.3z' fill='%23F00'/></svg>"
+    },
+    "region": "Americas",
+    "capital": ["Ottawa"],
+    "capitalInfo": {
+      "latlng": [45.4215, -75.6972]
+    },
+    "latlng": [60.0, -95.0],
+    "population": 38005238,
+    "currencies": {
+      "CAD": {
+        "name": "Canadian dollar",
+        "symbol": "$"
+      }
+    },
+    "languages": {
+      "eng": "English",
+      "fra": "French"
+    },
+    "area": 9984670
+  },
+  {
+    "name": {
+      "common": "India",
+      "official": "Republic of India"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='2' fill='%23fff'/><rect width='3' height='0.67' fill='%23F4C430'/><rect y='1.33' width='3' height='0.67' fill='%23090'/><circle cx='1.5' cy='1' r='0.25' fill='%23000080'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='2' fill='%23fff'/><rect width='3' height='0.67' fill='%23F4C430'/><rect y='1.33' width='3' height='0.67' fill='%23090'/><circle cx='1.5' cy='1' r='0.25' fill='%23000080'/></svg>"
+    },
+    "region": "Asia",
+    "capital": ["New Delhi"],
+    "capitalInfo": {
+      "latlng": [28.6139, 77.209]
+    },
+    "latlng": [20.0, 77.0],
+    "population": 1380004385,
+    "currencies": {
+      "INR": {
+        "name": "Indian rupee",
+        "symbol": "₹"
+      }
+    },
+    "languages": {
+      "hin": "Hindi",
+      "eng": "English"
+    },
+    "area": 3287590
+  },
+  {
+    "name": {
+      "common": "Germany",
+      "official": "Federal Republic of Germany"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5 3'><rect width='5' height='3' fill='%23FFCE00'/><rect width='5' height='2' fill='%23FF0000'/><rect width='5' height='1' fill='%23000000'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5 3'><rect width='5' height='3' fill='%23FFCE00'/><rect width='5' height='2' fill='%23FF0000'/><rect width='5' height='1' fill='%23000000'/></svg>"
+    },
+    "region": "Europe",
+    "capital": ["Berlin"],
+    "capitalInfo": {
+      "latlng": [52.52, 13.405]
+    },
+    "latlng": [51.0, 9.0],
+    "population": 83171306,
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+      }
+    },
+    "languages": {
+      "deu": "German"
+    },
+    "area": 357114
+  },
+  {
+    "name": {
+      "common": "France",
+      "official": "French Republic"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='2' fill='%23fff'/><rect width='1' height='2' fill='%23002395'/><rect x='2' width='1' height='2' fill='%23ED2939'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='2' fill='%23fff'/><rect width='1' height='2' fill='%23002395'/><rect x='2' width='1' height='2' fill='%23ED2939'/></svg>"
+    },
+    "region": "Europe",
+    "capital": ["Paris"],
+    "capitalInfo": {
+      "latlng": [48.8566, 2.3522]
+    },
+    "latlng": [46.0, 2.0],
+    "population": 67391582,
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+      }
+    },
+    "languages": {
+      "fra": "French"
+    },
+    "area": 640679
+  },
+  {
+    "name": {
+      "common": "Japan",
+      "official": "Japan"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='2' fill='%23fff'/><circle cx='1.5' cy='1' r='0.6' fill='%23bc002d'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='2' fill='%23fff'/><circle cx='1.5' cy='1' r='0.6' fill='%23bc002d'/></svg>"
+    },
+    "region": "Asia",
+    "capital": ["Tokyo"],
+    "capitalInfo": {
+      "latlng": [35.6762, 139.6503]
+    },
+    "latlng": [36.0, 138.0],
+    "population": 125836021,
+    "currencies": {
+      "JPY": {
+        "name": "Japanese yen",
+        "symbol": "¥"
+      }
+    },
+    "languages": {
+      "jpn": "Japanese"
+    },
+    "area": 377975
+  },
+  {
+    "name": {
+      "common": "Australia",
+      "official": "Commonwealth of Australia"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 1'><rect width='2' height='1' fill='%2300008b'/><circle cx='1.5' cy='0.75' r='0.1' fill='%23fff'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 1'><rect width='2' height='1' fill='%2300008b'/><circle cx='1.5' cy='0.75' r='0.1' fill='%23fff'/></svg>"
+    },
+    "region": "Oceania",
+    "capital": ["Canberra"],
+    "capitalInfo": {
+      "latlng": [-35.2809, 149.13]
+    },
+    "latlng": [-27.0, 133.0],
+    "population": 25687041,
+    "currencies": {
+      "AUD": {
+        "name": "Australian dollar",
+        "symbol": "$"
+      }
+    },
+    "languages": {
+      "eng": "English"
+    },
+    "area": 7692024
+  },
+  {
+    "name": {
+      "common": "Brazil",
+      "official": "Federative Republic of Brazil"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 14'><rect width='20' height='14' fill='%23009739'/><path d='M10 1l9 6-9 6-9-6z' fill='%23FEDF00'/><circle cx='10' cy='7' r='3.5' fill='%23002776'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 14'><rect width='20' height='14' fill='%23009739'/><path d='M10 1l9 6-9 6-9-6z' fill='%23FEDF00'/><circle cx='10' cy='7' r='3.5' fill='%23002776'/></svg>"
+    },
+    "region": "Americas",
+    "capital": ["Brasília"],
+    "capitalInfo": {
+      "latlng": [-15.7938, -47.8827]
+    },
+    "latlng": [-10.0, -55.0],
+    "population": 212559409,
+    "currencies": {
+      "BRL": {
+        "name": "Brazilian real",
+        "symbol": "R$"
+      }
+    },
+    "languages": {
+      "por": "Portuguese"
+    },
+    "area": 8515767
+  },
+  {
+    "name": {
+      "common": "South Africa",
+      "official": "Republic of South Africa"
+    },
+    "flags": {
+      "png": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='2' fill='%23000'/><rect width='3' height='0.67' fill='%23E03C31'/><rect y='1.33' width='3' height='0.67' fill='%23001489'/></svg>",
+      "svg": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='2' fill='%23000'/><rect width='3' height='0.67' fill='%23E03C31'/><rect y='1.33' width='3' height='0.67' fill='%23001489'/></svg>"
+    },
+    "region": "Africa",
+    "capital": ["Pretoria"],
+    "capitalInfo": {
+      "latlng": [-25.7479, 28.2293]
+    },
+    "latlng": [-29.0, 24.0],
+    "population": 59308690,
+    "currencies": {
+      "ZAR": {
+        "name": "South African rand",
+        "symbol": "R"
+      }
+    },
+    "languages": {
+      "afr": "Afrikaans",
+      "eng": "English",
+      "nbl": "Southern Ndebele",
+      "nso": "Northern Sotho",
+      "sot": "Southern Sotho",
+      "ssw": "Swazi",
+      "tsn": "Tswana",
+      "tso": "Tsonga",
+      "ven": "Venda",
+      "xho": "Xhosa",
+      "zul": "Zulu"
+    },
+    "area": 1221037
+  }
+]
