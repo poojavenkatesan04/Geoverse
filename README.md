@@ -14,7 +14,7 @@ GeoVerse Lite is a fully functional, clean, and responsive web application built
 GeoVerseLite/
 ├── venv/                 # Python virtual environment (MSYS2-based)
 ├── app.py                # Flask application routes
-├── requirements.txt      # Python dependencies
+├── requirements.txt     # Python dependencies
 ├── README.md             # Project documentation
 ├── templates/
 │   ├── index.html        # Main list template
@@ -24,25 +24,3 @@ GeoVerseLite/
     │   └── style.css     # Main stylesheet (including Leaflet custom styles)
     └── js/
         └── main.js       # Main Javascript file (API fetches, search, and Leaflet maps)
-```
-
-## Running the Application
-
-Follow these steps to run the application on your machine:
-
-1. **Activate the Virtual Environment**:
-   - Open your terminal in the `GeoVerseLite` root directory.
-   - Run the following command:
-     ```bash
-     source venv/bin/activate
-     ```
-
-2. **Run the Flask App**:
-   - Execute:
-     ```bash
-     python app.py
-     ```
-   - The server will start locally at `http://127.0.0.1:5000/`.
-
-3. **Explore**:
-   - Open your web browser and go to `http://127.0.0.1:5000/`.
